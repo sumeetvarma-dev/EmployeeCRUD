@@ -26,9 +26,12 @@ All the Rest APIs for all CRUD Operations
 				}
 			},
 			"response": [{"id":1,"name":"Sumeet","address":"Pune"}] HTTP/1.1 200 OK
-			
-			
 		},
+
+
+
+
+  
 		{
 			"name": "Get Employee By Id",
 			"request": {
@@ -49,7 +52,12 @@ All the Rest APIs for all CRUD Operations
 			},
 			"response": {"id":1,"name":"Sumeet","address":"Pune"} HTTP/1.1 200 OK
 		},
-		{
+		
+  
+  
+  
+  
+  		{
 			"name": "Add Employee",
 			"request": {
 				"method": "POST",
@@ -77,7 +85,12 @@ All the Rest APIs for all CRUD Operations
 			},
 			"response": Employee Added:: true  HTTP/1.1 201 Created
 		},
-		{
+		
+  
+  
+  
+  
+  		{
 			"name": "Update Employee",
 			"request": {
 				"method": "PUT",
@@ -106,7 +119,12 @@ All the Rest APIs for all CRUD Operations
 			},
 			"response": {"id":324,"name":"Hrithik","address":"London"} HTTP/1.1 200 OK
 		},
-		{
+		
+  
+  
+  
+  
+  		{
 			"name": "Delete Employee",
 			"request": {
 				"method": "DELETE",
@@ -135,5 +153,10 @@ All the Rest APIs for all CRUD Operations
 			},
 			"response": Employee Deleted   HTTP/1.1 202 Accepted
 		}
+
+
+
+
+  		
 	]
 }
